@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Header.jpg",
+      "PackagePath": "staticwebassets\\images\\Header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main1.jpg",
+      "PackagePath": "staticwebassets\\images\\Main1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main2.jpg",
+      "PackagePath": "staticwebassets\\images\\Main2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main3.png",
+      "PackagePath": "staticwebassets\\images\\Main3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\footer.png",
+      "PackagePath": "staticwebassets\\images\\footer.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Intro_ASP.NET Core.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Intro_ASP.NET Core.props",
+      "PackagePath": "build\\Intro_ASP.NET Core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Intro_ASP.NET Core.props",
+      "PackagePath": "buildMultiTargeting\\Intro_ASP.NET Core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Intro_ASP.NET Core.props",
+      "PackagePath": "buildTransitive\\Intro_ASP.NET Core.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

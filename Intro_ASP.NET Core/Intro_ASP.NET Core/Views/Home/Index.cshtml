@@ -1,0 +1,503 @@
+﻿@model Intro_ASP.NET_Core.ViewModel.ContactFormViewModel
+
+@{
+    Layout = null;
+}
+
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <title> Web Development </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<div class="header_menu_wrapp">
+    <div class="container">
+        <div class="header_menu" id="menu">
+            <div class="header_logo">
+                <img src="https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/" alt="логотип">
+                <p class="header_name">Devcloud Solutions</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Services
+                            <svg class="menu_icon" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_124)">
+                                    <path d="M0 2.55555L6 8.55555L12 2.55555" stroke="white"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_124">
+                                        <rect width="12" height="8.88944" fill="white" transform="translate(0 0.555553)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#services">Development</a></li>
+                            <li><a href="#">SEO</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#work_process">How we work</a></li>
+                    <li><a asp-controller="Category" asp-action="Index">Category</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<header id="main_header">
+    <div class="header_intro">
+        <h1>Software development company</h1>
+        <button class="header_btn">Book a consultation</button>
+        <a href="#guarantee">
+            <svg class="header_arrow" width="51" height="80" viewBox="0 0 51 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_127)" filter="url(#filter0_d_1_127)">
+                    <path d="M25.7856 -17.4962V71.5038M25.7856 71.5038L5.78564 45.1335M25.7856 71.5038L45.7856 45.1335" stroke="white" stroke-width="2"/>
+                </g>
+                <defs>
+                    <filter id="filter0_d_1_127" x="-3.21436" y="0.503845" width="57.4288" height="79.1555" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_127"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_127" result="shape"/>
+                    </filter>
+                    <clipPath id="clip0_1_127">
+                        <rect width="49.4287" height="71.1555" fill="white" transform="translate(0.785645 0.503845)"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+    </div>
+</header>
+<main>
+    <section>
+        <div class="container">
+            <div class="statistics">
+                <div class="statistics_data">
+                    <p class="statistics_number">98%</p>
+                    <p class="statistics_text">Finished projects <br>
+                        successfully</p>
+                </div>
+                <div class="statistics_line">
+                </div>
+                <div class="statistics_data">
+                    <p class="statistics_number">30</p>
+                    <p class="statistics_text">calendar days before <br>
+                        the first release</p>
+                </div>
+                <div class="statistics_line">
+                </div>
+                <div class="statistics_data">
+                    <p class="statistics_number">5+</p>
+                    <p class="statistics_text">days from idea to <br>
+                        finished concept</p>
+                </div>
+                <div class="statistics_line">
+                </div>
+                <div class="statistics_data">
+                    <p class="statistics_number">+20%</p>
+                    <p class="statistics_text">to business efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="guarantee">
+        <div class="container">
+            <div class="guarantee">
+                <div class="guarantee_bg">
+                    <img src="https://ucarecdn.com/83398f66-832a-4a52-9930-0549e372be61/" alt="">
+                </div>
+                <div class="guarantee_info">
+                    <div class="guarantee_content">
+                        <div class="guarantee_title">
+                            <div class="guarantee_title_wrapper">
+                                <div class="guarantee_h3">
+                                    <h3 class="guarantee_quote">We guarantee quality and fulfillment in time</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="guarantee_text1">We just know how to design what's needed. <br>
+                            Something that will work!</p>
+                        <a href="mailto:artemmelnykov29@gmail.com" id="emailLink"></a>
+                        <button class="guarantee_btn" id="emailButton">Book a consultation</button>
+                        <p class="guarantee_text2">
+                            Since 2010, we have been professionally developing successful mobile and web solutions, customized software solutions, information systems and business software that improve business efficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="basic_services">
+                <div class="basic_services_h3">
+                    <h3>Main services</h3>
+                </div>
+                <div class="basic_services_cards" id="services">
+                    <div class="services_card">
+                        <div class="services_label"></div>
+                        <div class="services_card_img">
+                            <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="53" height="53" fill="url(#pattern0_7019_18)"/>
+                                <defs>
+                                    <pattern id="pattern0_7019_18" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_7019_18" transform="scale(0.015625)"/>
+                                    </pattern>
+                                    <image id="image0_7019_18" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACdElEQVR4nO2bz07bQBCHZ1GPcEQVAfEafYVSQLxFn4B/PbdIPFShHNKn6A2jXouAC0Li45BNGoyztpPZnW2z3wVsr2d+M55sGHYtUii8AjgAroAH8uUB+AHsawd/bhzYPJxpBX/gDT4Cx8BAxXAEgAFw4rUC7GkYvfLGThQ0JgE49ZovNYzde2MbCtqSAGx4zXcaxgBQ0JWURXWvBAx/AirN2UqJCtiZN+A6bipgREScc84fVyKypeVImco5ty3yVvfcjNM76zgXtHW+05GVlKGI6D+Yf6UC6iyqc+YkuCxklwB69iJT94Vo7x1y+AiQphdp7h2sE0DEXoQuvUMGCYjeixDqHTJIwLgXmfnkgZ9+zLDhHPVrDfcP/JhJ75DTJLgqIuKc+x0Y81z7Wf+96XjClO21NxczqIAk/up+cqoAE7L7Uzhl1YmUCsivAhZua1uoV9jSV0BJgLUAa0oCrAVYUxJgLcCakgBrAdaUBFgLsKYkwFqANSUB1gKsKQmwFmBNSYC1AGs6J8CvwAxjnjOlbWGkaeFC81xZGDGiz7/Fm/bmaJ+zo6wNLimhj8CNiGxFfip/ROSDc+5XRB9BQhXwWUSqyP7N54CZW2VTk3pVeBzn0s8BE2LNwsAucEPLLm+rb4HoAni95f66tzB9Pf/H12DXyupjsHWb2px2d7zIa+BjYFyvCuhaWZ39MNpLC3Da1ZgmOSRg3197ZLSjMulrc8Cd9/++4/hOlVW7Z9P7aH7JCjjDnqMeeesF8MX7uAgN2gMu+TsnpOYJOATWFQPfZBT8eLP0rpZtVYBvCRL81TrOIIxe1/sO3CoGfQ9c0PDkXwAD4M8jCO+w4QAAAABJRU5ErkJggg=="/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="services_card_wrap">
+                            <p class="card_wrap_title">Mobile application development</p>
+                            <p class="card_wrap_text">We create mobile apps that users love. Taking advantage of artificial intelligence, machine learning, the Internet of Things and other high-tech technologies to create app masterpieces, that will last.</p>
+                        </div>
+                        <div class="services_more_blocks">
+                            <button class="services_link">
+                                <svg width="36" height="25" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.9135 3.0195C12.1623 1.0803 15.0305 0.00931166 18 0C24.0525 0 29.0768 4.5 29.6235 10.3027C33.2055 10.809 36 13.8082 36 17.4893C36 21.5302 32.6295 24.75 28.5457 24.75H8.50725C3.843 24.75 0 21.0735 0 16.4655C0 12.4987 2.8485 9.21375 6.6195 8.38125C6.94125 6.4395 8.19 4.5045 9.9135 3.0195ZM11.3827 4.72275C9.6795 6.192 8.7885 7.96275 8.7885 9.34875V10.3568L7.78725 10.467C4.644 10.8112 2.25 13.392 2.25 16.4655C2.25 19.7663 5.0175 22.5 8.50725 22.5H28.5457C31.455 22.5 33.75 20.223 33.75 17.4893C33.75 14.7532 31.455 12.4762 28.5457 12.4762H27.4207V11.3512C27.423 6.35625 23.238 2.25 18 2.25C15.5697 2.25971 13.2229 3.13748 11.3827 4.725V4.72275Z" fill="black"/>
+                                </svg>
+                                <span class="services_card_span-1">Learn more</span>
+                                <span class="services_card_span-2">&rarr;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="services_card">
+                        <div class="services_label"></div>
+                        <div class="services_card_img_2">
+                            <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="53" height="53" fill="url(#pattern0_1_80)"/>
+                                <defs>
+                                    <pattern id="pattern0_1_80" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_1_80" transform="scale(0.015625)"/>
+                                    </pattern>
+                                    <image id="image0_1_80" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACeElEQVR4nO2bMWtTURiGnxMrralonUQ3rbjpLHQRW7uIP0BtHRzFRRQcXIo4SekfkArSpH/CdNPRrZttR6WLCQotOvg63JvmGG6wmpP7Xej3TCfnnHzfe9+cQzK8AcdxHMdxHMdxHOfoEYomJdWAe8D5cuWMjM9AM4Twq39hbMAbFoC3I5Vkw1r/RG3AxosjFmKBiiYHnYCYD8D7tFpKZxNYL1o4jAGtEMJSWj3VYdAVODIc5gSYIWkSmAOmgeNDlPoJbJOd5r14oZIGSArAU+A5cDph6Y6kl8BKCEFQwSuQ/wZpAq9I+/AAU8Ay0MhNruQJeALciV5vAxtAe4iaZ4BZsqsEcBf4CKwU7pa0pB6lfQNImpTUiXq/ljSeqPa4pNWodltSvWpXYJbesd8CHoUQfqQonNd5COzkU1PAjaoZcDkat1I9fJe8XivuVzUDTkbj3RH1+BKNT1XNgNJxA6wFWOMGWAuwxg2wFmCNG2AtwBo3wFqANW6AtQBr3ABrAda4AdYCrHEDrAVY4wZYC7DGDbAWYI0bYC3AGjfAWoA1boC1AGsOEiKS5oGrwDFgJtozI+lZwp4DY6vA92h8LmHPmLjuNwAkNVQui0XKJN2O9mwpUTokqj8haSfqcQtJ8yU+eJfC2I2kurLoSpdVpYvITEh6E9X+KunEGHAlRYN/pP9ada/FnrIY23I+/wC4LqlFL9ryP0yT5Q0vRHMvQgj7SLpZzof+VxYhywhKao6415rymFwthPAOaAzhbioEkAcYF8jicp3EPdrAY+B+Nyh58IcJSXPANf7M6ZTFJrDe/80gqU6WHLsEnB2i/i7wCdgIIezHC78BawvPEuYvqkQAAAAASUVORK5CYII="/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="services_card_wrap">
+                            <p class="card_wrap_title">Software development</p>
+                            <p class="card_wrap_text2">For more than 10 years, we have mastered the best web technologies to realize the projects you have invested in. A reliable market leader in developing high-performance web interfaces for any business.</p>
+                        </div>
+                        <div class="services_more_blocks">
+                            <button class="services_link">
+                                <svg width="36" height="25" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.9135 3.0195C12.1623 1.0803 15.0305 0.00931166 18 0C24.0525 0 29.0768 4.5 29.6235 10.3027C33.2055 10.809 36 13.8082 36 17.4893C36 21.5302 32.6295 24.75 28.5457 24.75H8.50725C3.843 24.75 0 21.0735 0 16.4655C0 12.4987 2.8485 9.21375 6.6195 8.38125C6.94125 6.4395 8.19 4.5045 9.9135 3.0195ZM11.3827 4.72275C9.6795 6.192 8.7885 7.96275 8.7885 9.34875V10.3568L7.78725 10.467C4.644 10.8112 2.25 13.392 2.25 16.4655C2.25 19.7663 5.0175 22.5 8.50725 22.5H28.5457C31.455 22.5 33.75 20.223 33.75 17.4893C33.75 14.7532 31.455 12.4762 28.5457 12.4762H27.4207V11.3512C27.423 6.35625 23.238 2.25 18 2.25C15.5697 2.25971 13.2229 3.13748 11.3827 4.725V4.72275Z" fill="black"/>
+                                </svg>
+                                <span class="services_card_span-1">Learn more</span>
+                                <span class="services_card_span-2">&rarr;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="services_card">
+                        <div class="services_label"></div>
+                        <div class="services_card_img_3">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="50" height="50" fill="url(#pattern0_1_76)"/>
+                                <defs>
+                                    <pattern id="pattern0_1_76" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_1_76" transform="scale(0.02)"/>
+                                    </pattern>
+                                    <image id="image0_1_76" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFdklEQVRoge2ZW4hVZRTH1zYvo0wXKzS7wDSNEk1DF3sYpdIsdCxpkkwreuvBF0UrKHQEmbCsIDKky0MQQaVIoShmGV000cC0hPQhsyRnNHPKMW1szJlfD9/anTX77O+cvefsM3MeWrBZZ6/bt/7nu+71ifxPlUVBFkGAahG5Q0SmiEi9iIwXkTEiUq0mZ0TkuIgcFJH9IrJNRHYEQXAmi/ZLIiAAZgLrgL9JT2eBtUATkMkf2h8Qc4B9ngSPAM8Ck4zsVmAJcNjj8x0weyAB1AGfmgR+BTr193ngRdwwC+0BMO8jgOVqC3ACOGbifQzUlhvEo8CfJoFF+s8DdANzYnz6ADHyJuAvVT8NLNSYAKeAeeUAEAArzL+2ARgL3A306DPL4xsLxID5R59GjbnetNOaNYjXzNBZoPKLcHMBYEUBfy8Q1T+jJj8CVSpbYIbe6qyAhD3RhZmMwAsq3wUMLQHIEGCnmrUY+QPaZuk9g5sT6NBpNvJxuKUTYHKRGAWBqM0tQC9u/o028mZtG2Buf0HUkZvYT0Z0z6l8U4I4RYGo3Qdquiwif0LlnRRZzWI3IuAjEZlZLIEBpq1BEMzwKYdEBbhltNJAiIhMt0O8IOFWqXDHXhyjf1t1SxPGSzS01Hapmr8Zo1uoum9JcpzBnZ0A2tHl0OgC4KjqbywDkAY1PxyjqwLaVO8dXtZhnRq3xOiuV92xJImpT2Igan9cXfImNtCiujXFglyIW1Z7gZoY/WMaaH2KxNIC2aAueUcUoEZz6wJGRfV2st8uIlUisjsIgrzuFZGblO9Jmlg/aK/ym6MKzWm3iIwUl2sfskCmKN/uaeQ65Qf7l2Mi+iHSVpS+Uj41qrBA6pXv9AQJh9tPqVJLRz8rv9aj36W8PqqwQCZEgkXpUuUdqVJLRyeUX+7Rh7lNiCoskMuUt3mCXKz8ZKrU0tFv4r7vL/HojyjPA/rf5gJ0i8jwzFPzUBAEvuNRo4hsltwIiKPuIAj67HN5R5TBpiAIvhY3mQvtV/7dHejQNTx2fAInVe/r9jifRPsI8DnwDTCuiN1YDflHVGd7JJzEV3vinFI+2qMvhe4SkYkisgPwrVgiIlcpz+stCyRcw33n/vBf8K0oWVCtODA3ePTh/nIoqrBA9iuf5AkSLn3lLNd8ISJXish24LYYfaPyvL3OAtmm/E5PI+FGOL4/GSake0Vkk7it4DMguoOHNbMvvRGA6sE6NFo7YBjwnoq6MKUmYDjwFjCsWMC1GmBZjK5sx/ioHa668rqKzwGPJG0zDNCkzu3AyIjOflg1lBOIka9UVQ8wPzkS57xHnQt96uZ9eKVJMI0drojXqybLk7QbOs5mACgNYGA+uRrXyjRgNlcSELV5GDdfAN4Aih+vgFpcVRzgqYiuHAW6pHazyJVS36XY6qVO89Shh7513yvIsGSaxk5tp5Krgm4kUu3xObWqw1ngQSPPpIidxA63v20FDpknHC2JRkYYaLXpmUUqy+RaISGQOnKrVhx9nwiIBms1jhtxw2saJVz0+OyAC4CXgVVG/4mavIqbv/ZJ9zEIzDVd2gEsNgC7gYeSAgHui7NTEO+b92mqv0ffjwIjUiXuAVMLbDENRS9DX6LwZWgV7t7xvAdICCIcSluMzV6VPV4yEBO02QSOUhvupmuykU3ElTx/ieuliH8nrgZ9WgE1qE148XSAJHtICjABMANYQ25tT0weIJ244oMAq1T2jr4PJXdPf39mQCKJjAKmA8/j6rcHgN9xc6dLe2kf7tZ2CTr2jX87bv41GlkN7sb3HHCNysJDpK8aOriEWwXHxMjD75IPcXtJSL7aW2US7qLU0mngFcBXIKlcwp2p2nRIlqOCU1n0LzCNczpVfNqOAAAAAElFTkSuQmCC"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="services_card_wrap">
+                            <p class="card_wrap_title card_title3">Web application development</p>
+                            <p class="card_wrap_text2 card_wrap_text3">We not only keep up with “design trends”, but we are also user-centered, making our services the most effective in the entire market. Excellence since 2010. Let's create the perfect web application just for you.</p>
+                        </div>
+                        <div class="services_more_blocks">
+                            <a class="services_link">
+                                <svg width="36" height="25" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.9135 3.0195C12.1623 1.0803 15.0305 0.00931166 18 0C24.0525 0 29.0768 4.5 29.6235 10.3027C33.2055 10.809 36 13.8082 36 17.4893C36 21.5302 32.6295 24.75 28.5457 24.75H8.50725C3.843 24.75 0 21.0735 0 16.4655C0 12.4987 2.8485 9.21375 6.6195 8.38125C6.94125 6.4395 8.19 4.5045 9.9135 3.0195ZM11.3827 4.72275C9.6795 6.192 8.7885 7.96275 8.7885 9.34875V10.3568L7.78725 10.467C4.644 10.8112 2.25 13.392 2.25 16.4655C2.25 19.7663 5.0175 22.5 8.50725 22.5H28.5457C31.455 22.5 33.75 20.223 33.75 17.4893C33.75 14.7532 31.455 12.4762 28.5457 12.4762H27.4207V11.3512C27.423 6.35625 23.238 2.25 18 2.25C15.5697 2.25971 13.2229 3.13748 11.3827 4.725V4.72275Z" fill="black"/>
+                                </svg>
+                                <span class="services_card_span-1">Learn more</span>
+                                <span class="services_card_span-2">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="projects_h3">
+                <h3>Our projects</h3>
+            </div>
+            <div class="our_projects">
+                <a href="#" class="our_projects_link projects_link_left">
+                    <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 25L1 13L13 1" stroke="black"/></svg>
+                </a>
+                <div class="projects_img">
+                    <img src="https://ucarecdn.com/26b4a8e2-88ae-42b0-81f7-90bcf30ad7ef/" alt="">
+                </div>
+                <div class="projects_content">
+                    <h4 class="projects_h4">Photo book production company - Fototeca</h4>
+                    <p class="projects_text">A software solution that automates the production of products - from design creation to delivery to the client. A system was created that allows a professional photographer - the company's client - to form a product (photo book) in the required format and form, pay for it and immediately transfer the order to production.</p>
+                    <div class="services_more_blocks">
+                        <a class="learn_more_btn projects_btn-1">
+                            <svg width="36" height="25" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.9135 3.0195C12.1623 1.0803 15.0305 0.00931166 18 0C24.0525 0 29.0768 4.5 29.6235 10.3027C33.2055 10.809 36 13.8082 36 17.4893C36 21.5302 32.6295 24.75 28.5457 24.75H8.50725C3.843 24.75 0 21.0735 0 16.4655C0 12.4987 2.8485 9.21375 6.6195 8.38125C6.94125 6.4395 8.19 4.5045 9.9135 3.0195ZM11.3827 4.72275C9.6795 6.192 8.7885 7.96275 8.7885 9.34875V10.3568L7.78725 10.467C4.644 10.8112 2.25 13.392 2.25 16.4655C2.25 19.7663 5.0175 22.5 8.50725 22.5H28.5457C31.455 22.5 33.75 20.223 33.75 17.4893C33.75 14.7532 31.455 12.4762 28.5457 12.4762H27.4207V11.3512C27.423 6.35625 23.238 2.25 18 2.25C15.5697 2.25971 13.2229 3.13748 11.3827 4.725V4.72275Z" fill="black"/>
+                            </svg>
+                            <span class="work_process_span1">Learn more</span>
+                            <span class="work_process_span2">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="our_projects_link projects_link_right">
+                    <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L13 13L1 25" stroke="black"/></svg>
+                </a>
+            </div>
+            <div class="projects_button">
+                <a class="projects_btn-2">Show all projects</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="work_process_h3", id="work_process">
+                <h3>Our work process</h3>
+            </div>
+            <div class="work_process">
+                <div class="work_process_slider">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                </div>
+                <div class="work_process_img">
+                    <img src="https://ucarecdn.com/5a556d3e-6c7c-4715-9128-e7f2ebe384cb/" alt="">
+                </div>
+                <div class="work_process_content">
+                    <h4 class="work_process_h4">1. Discovery workshop
+                    </h4>
+                    <p class="work_process_text">We prioritize understanding and documenting inputs, client preferences, designs and brands. And clarify all open points to gain an accurate and clear understanding of both client and project goals. We work in a collaborative approach with stakeholders to align business processes.</p>
+                    <div class="services_more_blocks">
+                        <a class="learn_more_btn">
+                            <svg width="36" height="25" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.9135 3.0195C12.1623 1.0803 15.0305 0.00931166 18 0C24.0525 0 29.0768 4.5 29.6235 10.3027C33.2055 10.809 36 13.8082 36 17.4893C36 21.5302 32.6295 24.75 28.5457 24.75H8.50725C3.843 24.75 0 21.0735 0 16.4655C0 12.4987 2.8485 9.21375 6.6195 8.38125C6.94125 6.4395 8.19 4.5045 9.9135 3.0195ZM11.3827 4.72275C9.6795 6.192 8.7885 7.96275 8.7885 9.34875V10.3568L7.78725 10.467C4.644 10.8112 2.25 13.392 2.25 16.4655C2.25 19.7663 5.0175 22.5 8.50725 22.5H28.5457C31.455 22.5 33.75 20.223 33.75 17.4893C33.75 14.7532 31.455 12.4762 28.5457 12.4762H27.4207V11.3512C27.423 6.35625 23.238 2.25 18 2.25C15.5697 2.25971 13.2229 3.13748 11.3827 4.725V4.72275Z" fill="black"/>
+                            </svg>
+                            <span class="work_process_span1">Learn more</span>
+                            <span class="work_process_span2">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="technologies_h3">
+                <h3>Tools and technologies</h3>
+            </div>
+            <div class="technologies">
+                <div><img src="https://ucarecdn.com/9d183eee-4ec3-4ca4-8871-fff04fcb14e0/" alt="logo-1"></div>
+                <div><img src="https://ucarecdn.com/83a57cbc-eb76-4b0f-9e51-41c2d1c8bab5/" alt="logo-2"></div>
+                <div><img src="https://ucarecdn.com/dc706670-8c6e-48ea-8da7-68a00f293806/" alt="logo-3"></div>
+                <div><img src="https://ucarecdn.com/a97e2ecc-3825-443f-8a94-6a912d1c4fe9/" alt="logo-4"></div>
+                <div><img src="https://ucarecdn.com/e90892c4-45bd-408c-9940-920d3e734952/" alt="logo-5"></div>
+                <div><img src="https://ucarecdn.com/29cde8bb-ee6b-4f0c-b573-fb60ad1fc936/" alt="logo-6"></div>
+                <div><img src="https://ucarecdn.com/fe8632d0-0764-4f60-9d1e-dbc87ff2749e/" alt="logo-7"></div>
+                <div><img src="https://ucarecdn.com/dcc3592f-38a8-4a86-92d2-245520938e18/" alt="logo-8"></div>
+                <div><img src="https://ucarecdn.com/dd80002f-5b41-4e9d-bec8-d7adee83025e/" alt="logo-9"></div>
+                <div><img src="https://ucarecdn.com/6964928d-71a1-4b94-a6d5-eb378992b5bf/" alt="logo-1"></div>
+                <div><img src="https://ucarecdn.com/f93eac32-ea69-4624-8480-2e63ba3c57e4/" alt="logo-10"></div>
+                <div><img src="https://ucarecdn.com/73891360-1f89-459a-afe0-557b32c23250/" alt="logo-11"></div>
+                <div><img src="https://ucarecdn.com/1e5cc959-92d1-4695-baf7-f019e0f635cd/" alt="logo-12"></div>
+                <div><img src="https://ucarecdn.com/cf959e95-f193-4626-a1da-11d850f7d3ab/" alt="logo-13"></div>
+                <div class="logo-double">
+                    <svg width="121" height="42" viewBox="0 0 121 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_265)">
+                            <path d="M114.495 0H40.3334V42H114.495C118.087 42 121 39.0618 121 35.4375V6.5625C121 2.93814 118.087 0 114.495 0Z" fill="#0F1418"/>
+                            <path d="M40.3333 0H6.50538C2.91256 0 0 2.93814 0 6.5625V35.4375C0 39.0618 2.91256 42 6.50538 42H40.3333V0Z" fill="url(#paint0_linear_1_265)"/>
+                            <path d="M33.9363 7.875C33.8566 7.87556 33.7769 7.88423 33.6988 7.90084L33.6964 7.89849L21.7117 9.5481V19.9063H35.129V9.07813C35.129 8.75903 35.0033 8.45301 34.7797 8.22739C34.556 8.00176 34.2526 7.875 33.9363 7.875ZM19.3171 9.87473L7.54195 11.4961C7.2554 11.5343 6.99234 11.6761 6.80166 11.8953C6.61101 12.1144 6.50571 12.3959 6.50537 12.6875V19.9063H19.3171V9.87473ZM6.50537 22.3125V29.5312C6.50563 29.8295 6.61564 30.1169 6.81404 30.3378C7.01245 30.5588 7.28513 30.6977 7.57923 30.7273L19.3171 32.3441V22.3125H6.50537ZM21.7117 22.3125V32.6706L33.6964 34.3203C33.6972 34.3203 33.698 34.3203 33.6988 34.3203C33.7769 34.3361 33.8566 34.3439 33.9363 34.3438C34.2526 34.3438 34.556 34.217 34.7797 33.9914C35.0033 33.7658 35.129 33.4597 35.129 33.1406V22.3125H21.7117Z" fill="white"/>
+                            <path d="M78.3075 15.0898L74.6958 28.8749H71.2843L69.0164 20.0309C68.8956 19.5695 68.8226 19.0536 68.7971 18.4832H68.759C68.7019 19.1112 68.6193 19.6272 68.5113 20.0309L66.1861 28.8749H62.6317L59.0391 15.0898H62.403L64.3279 24.2703C64.4104 24.6612 64.4708 25.1866 64.5089 25.8468H64.5662C64.5915 25.3533 64.6836 24.8149 64.8425 24.2318L67.3201 15.0898H70.6173L72.8566 24.3472C72.9392 24.6868 73.0123 25.1803 73.0758 25.8275H73.114C73.1393 25.3213 73.2061 24.8086 73.3141 24.2894L75.2009 15.0898H78.3075ZM84.0401 24.126V28.8749H80.9622V15.0898H85.784C89.2273 15.0898 90.9488 16.5542 90.9488 19.4829C90.9488 20.8672 90.4534 21.9887 89.4624 22.8475C88.4776 23.6998 87.1593 24.126 85.5076 24.126H84.0401ZM84.0401 17.4739V21.7709H85.2503C86.8894 21.7709 87.7089 21.0466 87.7089 19.5983C87.7089 18.182 86.8894 17.4739 85.2503 17.4739H84.0401ZM101.77 17.618H96.9484V21.0019H101.379V23.5204H96.9484V28.8749H93.8704V15.0898H101.77V17.618Z" fill="white"/>
+                            <path d="M114.495 0H6.50538C2.91256 0 0 2.93814 0 6.5625V35.4375C0 39.0618 2.91256 42 6.50538 42H114.495C118.087 42 121 39.0618 121 35.4375V6.5625C121 2.93814 118.087 0 114.495 0Z" fill="url(#paint1_linear_1_265)"/>
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_1_265" x1="40.3333" y1="1.2517e-06" x2="-0.363902" y2="41.6444" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#23CAF6"/>
+                                <stop offset="1" stop-color="#0575BD"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_1_265" x1="0" y1="0" x2="0" y2="42" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#BBBBBB" stop-opacity="0.1"/>
+                                <stop offset="1" stop-opacity="0.1"/>
+                            </linearGradient>
+                            <clipPath id="clip0_1_265">
+                                <rect width="121" height="42" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <svg width="127" height="128" viewBox="0 0 127 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M54.9543 66.4688H63.2222L58.8496 59.3788L50.8248 72.1978H47.1726L56.9337 56.7998C57.3584 56.1778 58.0648 55.8018 58.8496 55.8018C59.6086 55.8018 60.3161 56.1648 60.7268 56.7738L70.5257 72.1978H66.8734L65.151 69.3328H56.7789L54.9543 66.4688ZM92.8906 69.3328V55.9578H89.792V70.6428C89.792 71.0448 89.9468 71.4338 90.2424 71.7318C90.5381 72.0298 90.937 72.1978 91.3745 72.1978H105.507L107.334 69.3328H92.8906ZM41.6173 66.9358C44.6266 66.9358 47.0704 64.4868 47.0704 61.4538C47.0704 58.4208 44.6276 55.9578 41.6173 55.9578H28.0591V72.1988H31.1577V58.8218H41.4119C42.8526 58.8218 44.0095 60.0018 44.0095 61.4528C44.0095 62.9038 42.8516 64.0838 41.4119 64.0838L32.6747 64.0708L41.9259 72.1978H46.4284L40.2034 66.9348L41.6173 66.9358ZM8.98823 72.1978C4.54026 72.1978 0.929688 68.5688 0.929688 64.0838C0.929688 59.5988 4.53926 55.9568 8.98823 55.9568H18.3535C22.8035 55.9568 26.411 59.5998 26.411 64.0838C26.411 68.5678 22.8035 72.1978 18.3535 72.1978H8.98823ZM18.1451 69.3328C21.0274 69.3328 23.3621 66.9868 23.3621 64.0838C23.3621 61.1808 21.0274 58.8208 18.1451 58.8208H9.19461C6.31528 58.8208 3.97967 61.1798 3.97967 64.0838C3.97967 66.9868 6.31528 69.3328 9.19461 69.3328H18.1451ZM76.9957 72.1978C72.5468 72.1978 68.9332 68.5688 68.9332 64.0838C68.9332 59.5988 72.5468 55.9568 76.9957 55.9568H88.1201L86.3054 58.8208H77.2021C74.3208 58.8208 71.9792 61.1798 71.9792 64.0838C71.9792 66.9868 74.3208 69.3328 77.2021 69.3328H88.3771L86.5515 72.1978H76.9957ZM114.894 69.3328C112.516 69.3328 110.496 67.7258 109.879 65.5088H123.125L124.95 62.6448H109.879C110.496 60.4418 112.516 58.8208 114.894 58.8208H123.986L125.825 55.9568H114.688C110.239 55.9568 106.625 59.5998 106.625 64.0838C106.625 68.5678 110.239 72.1978 114.688 72.1978H124.244L126.07 69.3328H114.894Z" fill="#EA1B22"/>
+                    </svg>
+                </div>
+                <div><img src="https://ucarecdn.com/e0153d68-cd09-464a-9bd1-3f22d214b0e6/" alt="logo-15"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="feedback">
+                <div class="feedback_content">
+                    <div class="feedback_content_img">
+                        <img src="https://ucarecdn.com/b879c200-500c-4402-ac21-3de2cdca612c/" alt="Director">
+                    </div>
+                    <p class="feedback_content_name">Edward Snowden</p>
+                    <p class="feedback_content_director">Director of Copyland LLP</p>
+                    <p class="feedback_content_text">A very convenient system of order taking and processing has been developed, with it a huge amount of resources are really freed up.</p>
+                    <div class="feedback_content_rating">
+                        <div class="rating">
+                            <span class="icon_star">&#9733;</span>
+                            <span class="icon_star">&#9733;</span>
+                            <span class="icon_star">&#9733;</span>
+                            <span class="icon_star">&#9733;</span>
+                            <span class="icon_star">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback_form", id="contacts">
+                    <h4>Any questions? Ask away!</h4>
+                    <form action="#" method="post">
+                        <div class="feedback_form_date">
+                            <input name="user_name" type="text" placeholder="Name" class="name" required>
+                            <input name="user_email" type="email" placeholder="E-mail" class="email" required>
+                            <input name="user_phone_number" type="tel" placeholder="Phone" class="phone_number" required>
+                        </div>
+                        <div class="text_area">
+                            <textarea name="message" rows="5" placeholder="Write your message..."></textarea>
+
+                            <div class="form_icons">
+                                <button type="submit" class="form_icon send">
+                                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_52)">
+                                            <path d="M30.6261 7.59164C30.3343 7.60453 30.0496 7.68539 29.7929 7.78851C29.5386 7.89047 28.0773 8.5139 25.9187 9.43734C23.7601 10.3608 20.9546 11.5619 18.1726 12.7537C12.6097 15.1373 7.14292 17.4823 7.14292 17.4823L7.18276 17.467C7.18276 17.467 6.85229 17.5772 6.51831 17.8104C6.35073 17.9264 6.17143 18.0776 6.02378 18.2967C5.87612 18.5159 5.76831 18.8264 5.80932 19.1557C5.95229 20.31 7.14878 20.6381 7.14878 20.6381L7.15346 20.6405L12.4949 22.4686C12.6308 22.9233 14.1144 27.8756 14.4414 28.9244C14.6218 29.5045 14.7906 29.8385 14.9664 30.067C15.0542 30.1807 15.1468 30.2698 15.2488 30.3342C15.2898 30.36 15.332 30.3787 15.3742 30.3963C15.3753 30.3963 15.3753 30.3963 15.3765 30.3963C15.3812 30.3987 15.3871 30.3987 15.3917 30.401L15.3777 30.3975C15.3871 30.401 15.3976 30.408 15.407 30.4116C15.4257 30.4186 15.4374 30.4174 15.4621 30.4233C16.0738 30.6366 16.58 30.2405 16.58 30.2405L16.6011 30.2241L19.8824 27.1807L25.2074 31.3326L25.2742 31.3631C26.2058 31.7768 27.0496 31.5459 27.516 31.1662C27.9824 30.7866 28.1664 30.2967 28.1664 30.2967L28.1863 30.2451L32.0992 9.85101C32.1988 9.39515 32.214 9.00023 32.1191 8.64398C32.0242 8.28773 31.7957 7.97836 31.5074 7.80609C31.2191 7.63382 30.9179 7.57875 30.6261 7.59164ZM30.6578 8.81156C30.7761 8.8057 30.864 8.81976 30.8921 8.83617C30.9203 8.85257 30.932 8.85023 30.9589 8.95101C30.9859 9.05179 31 9.26273 30.9273 9.59437L30.9249 9.6014L27.0343 29.8772C27.025 29.8971 26.9441 30.0846 26.7589 30.2358C26.5703 30.3893 26.3605 30.5088 25.8027 30.2756L19.9796 25.7346L19.8156 25.6057L19.8121 25.6092L18.0707 24.3026L27.857 12.7889C28.0105 12.6084 28.0433 12.3553 27.9414 12.1409C27.8394 11.9276 27.6214 11.794 27.3847 11.7998C27.271 11.8034 27.1609 11.8373 27.0671 11.9006L12.9062 21.3412L7.55659 19.5096C7.55659 19.5096 7.02573 19.2143 6.99995 19.008C6.99878 18.9963 6.99175 19.0069 7.01987 18.9659C7.048 18.9248 7.11714 18.8557 7.20386 18.7948C7.37729 18.6741 7.57651 18.6002 7.57651 18.6002L7.59643 18.5932L7.61636 18.585C7.61636 18.585 13.0832 16.2401 18.646 13.8565C21.4269 12.6647 24.2324 11.4635 26.391 10.5412C28.5484 9.61898 30.107 8.95453 30.2394 8.90179C30.3894 8.84203 30.5394 8.81742 30.6578 8.81156ZM24.1679 15.2756L16.7464 24.0073L16.7429 24.0108C16.7312 24.0248 16.7207 24.0389 16.7101 24.0541C16.6984 24.0705 16.6878 24.0869 16.6773 24.1045C16.6351 24.1748 16.6093 24.2534 16.5988 24.3354C16.5988 24.3366 16.5988 24.3389 16.5988 24.3401L15.632 28.6877C15.6156 28.6409 15.605 28.6233 15.5874 28.5682V28.567C15.2804 27.5803 13.88 22.9092 13.6867 22.2635L24.1679 15.2756ZM17.5843 25.4381L18.9179 26.4389L16.9585 28.2553L17.5843 25.4381Z" fill="white"/>
+                                        </g>
+                                        <rect x="0.5" y="0.5" width="37" height="37" rx="6.5" stroke="white"/>
+                                        <defs>
+                                            <clipPath id="clip0_1_52">
+                                                <rect width="30" height="30" fill="white" transform="translate(4 4)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                                <button type="button" class="form_icon attach">
+                                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="3" y="4" width="31" height="31" fill="url(#pattern0_1_49)"/>
+                                        <rect x="0.5" y="0.5" width="37" height="37" rx="6.5" stroke="white"/>
+                                        <defs>
+                                            <pattern id="pattern0_1_49" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                <use xlink:href="#image0_1_49" transform="scale(0.01)"/>
+                                            </pattern>
+                                            <image id="image0_1_49" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer_wrapper">
+            <div class="footer_logo">
+                <img class="footer_logo_img" src="https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/" alt="logo">
+                <div class="footer_logo_title">
+                    <p class="footer_name">Devcloud Solutions</p>
+                    <p class="footer_adress">Warsaw, Old Town</p>
+                </div>
+            </div>
+            <div class="footer_contacts">
+                <div class="footer_phone">
+                    <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect y="0.686523" width="27" height="28.1571" fill="url(#pattern0_1_292)"/>
+                        <defs>
+                            <pattern id="pattern0_1_292" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_1_292" transform="matrix(0.0108631 0 0 0.0104167 -0.0214286 0)"/>
+                            </pattern>
+                            <image id="image0_1_292" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAE1ElEQVR4nO2dbajfYxjHP8c5M9GZM8ckrakRY2Sb9kaMJRNbUpM0RCNeEEoi5a1I5HhIzRQZXogm0kR5zkbKTNbUzjzlOcb4c7Y5Py+u88/WOWfn979/933dD//rU/e7/znX976+v/P/3Q/XfR8wDMMwDMMwDMMwVOnp8PP9wCJgLjDNk4YtwAeeflexHAk8DvwFVJ7bCLBMryv5cQSwFf+J37ftBI7W6lBuPEPY5Lfbaq0OpcRBNT5zSXAVQr9SnKSoY8Du4CoEM2ASWsFVCHOV4iRFHQN+CK5COF4pTlLUMWBHcBXCYuAwpVjJUMeA4eAqhEOAc5ViJUNKfwEASxVjJUFqBixRjJUN89CZiFXAXuBwnW6lQd13wN7QQsboBc5SipUEdSdi9h4IRB0DALYFVbE/XbUyWteArUFV7M8pyHunK6hrwHtBVYznUuV4yTOAvIi1RkPD1H84uoaP0TOgAs7R6VZcOnnK3gqmYmLOU44XhZQNOFE5XhQ6MeAd9DZnAL5XjJUNr6Hz/b8HOEmpT1HpdKSxPoiK8dyK7twjG44B/iXs0/+kWm8y5Q3CJf9NZGPGOABXEyb5nyATPmMK+vFforgNmKXZidx5An/J/wo4Vld+/izET/K/BY5T1l4MH9Is+T8CJ6urLojLcU/+T8B8fcll0YdsVboY0JWV0CG4EfchZ28EvcVxKLJo5mLCNRH0FskNuBmwE5gdQW9xTAO242bCK3R+ULAofHwPjwK/ACsdfvYExIi3PejoanqA93H7KxgFLtOXXB4Lca+c+BOblHnhUdwnZ58hoyqjATOB73A34Vm6/KXsgxW4G1ABd+lLLo91uBswipUmNmYQ9xlyhdwfcYG66sJYSrN60hZdUp4Ykrtp9j74gy48OemTPqS0vYkJI8AV2sJLYg6yAdPEhFHg9kD6ZgEvIPVO7wLXU+BBwSXIk9zEhApYg7+bugBOA76cIE4LGcktAw72GC8q19LcgAp4HT/1Q2ciS+J13kPrgTuB5cilIn0e4kfhQfyY8DnNzpGdT7Papt3AF8CrwBDytXU2crVb0vQCL+LHhF3AlQ4algP/eNIwUdsBrEWWZZJkOn7rS9dS/5aVFYRN/r5tXUdZUaYf2IS/zg4z9fnii/AzEOikJX33xSDwKX47/BQTfw9fjH7yK+C+RhlSYCZyaavPTu8C7uH/sfxK5KWpnfwKeMxTnoIyA9kT9t35n4FHiJf8bAwA2QnbQLxERTMgldPoLWSE8nBsIdqkYgDI0vVNyKRmT2QtaqRkQJs1wIXAb7GFaJCiASATtQXI4fCiSdUAgK+RXbVb0D2hr0rKBoDsAwwhC13bI2sJQuoGtNkInArci2ycFEMuBgD8DdwBnA58FFmLN3IyoM1m4AzkPonfI2tpTI4GgMwZHkB2px5C715T7+RqQJtfgZuR/+z0cmQtTuRuQJstyHr/AuD5yFo6ohQD2mxG6koXA09T8PwhF45C6om+Ic5q6FD4LubBdOQY1Evo7QlXwHUancuNAeAq5IRmSDNGsPuPpmQAWIVcv+N61HaytkGxH8UwB7mE5H7k+rQ6lXOTtdvqBLTzWAemB7nPaNFYm41Ucwwi1RcDSLHZjLHPt5B7MJ5D9jVsFGYYhmEYhmEYxjj+A7C1xpwzDqW5AAAAAElFTkSuQmCC"/>
+                        </defs>
+                    </svg>
+                    <div class="footer_phone_numbers">
+                        <p><a href="tel:+77273342145">+48 334-21-45</a></p>
+                        <p><a href="tel:+77079989390">+48 998-93-90</a></p>
+                    </div>
+                </div>
+                <p class="footer_email icon">
+                <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect y="0.957031" width="26" height="22.9429" fill="url(#pattern0_1_297)"/>
+                    <defs>
+                        <pattern id="pattern0_1_297" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_1_297" transform="matrix(0.01 0 0 0.0113325 0 -0.0666251)"/>
+                        </pattern>
+                        <image id="image0_1_297" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAADg0lEQVR4nO3dO2gUURTG8f9GjQ/UiIgoEhEERVFQCCgoWphOUwqpLG0tbS3FztJWrGwFLYQUCopCCoMSUBQlKOIT3/GVtZgcsrvOnZ3Zndk5s/l+cAks5N4z99t57L15gIiIiIiIiIiIiIhUXw2ol12ELBgouwBppkCcUSDOLI15rdbzKha3pnu4zhBnFIgzCsQZBeKMAnFGgTijQJxRIM6kCWSw8CoWj1RzWW9prZ4AJ3MsarEaBR7FvP7f/LcLxF6fAPYXUWmf2w3coP38Zg6kDvwFLgOb8666D20ALgJ/SD+/mQOx9hU4B6zM8wj6xCBwBvhE/Ny1yhzIVKDjOvAcGEcrxBDNwTjRnITmayrm+zIHMgCcAl4nDHQfOJzLYVXTCHCb8Py8Izpr4rY7MgdiVhNdpn4EBp0DrgLbujmyitkCXCK6t8bNyS+i+8hQQh8dB2KGiW7sc4EivgPngbVZjqxiVgFngS+Ez4prwPYUfXUdiDkA3Eko6BVwGliSoU/vakSfyV4QPu5J4EiGPnMLpLHApBvZJHA0Y78eHQTuEj7Ol3T2Bsw1EGOn8OeEgtOewt5sJfkS/Y3oEr2mw/4LCcSkvcmt63KcXujVQ0yhgZgR4FZM39beE34MLFuax/x7wKGcxutJIGYMeBozhrVp4ETOY3bjGPCAcL0zRGHl+UG4p4FA+6WEOnAT2FvA2GntJLr8hOqzpaIVBYzd80BMaLHN2m+i+8/GAmtotZ7ohvwzUJMtpm4qsIbSAjG7gOsx41r7SPTEtrzAGpYRPaK+TahjAthXYA2m9EDMKPAwZnxrjylmY6yscUPcBAIL79Q3MXXk/U5td2Z+oPgzM46rQEyR13KP965GLgMxO0j3tJNmYyzt092eXI8gO9eBmG4/D4wBzxK+fxo4Xlz5mVQiEEi/Mdb4ibndCkHSRlFZKhOIGQIuALPET/IccGW+hRYAZ+f7SNooKkvlAjHtVl1Dzfsqc2UDMe02xqxVZR+m8oFA8sZYpxtFZemLQEzj3rbt5Xe6UVSWpvmP+0sOVfwZq+H5rzOlVtGZpvnvl0CqrGn+9fshzigQZxSIMwrEGQXijAJxRoE4o0CcUSDOKBBnFIgzCsQZBeKMAnFGgTijQJxRIM4oEGcUiDMKxBkF4owCcUaBOKNAnNH/oHJGZ4gzCsQZBSIiIiIiIiIiIiIikrt/ptlxJhIU9K0AAAAASUVORK5CYII="/>
+                    </defs>
+                </svg>
+                <a href="mailto:info@devcloud.kz">info@devcloud.pl</a>
+                <p class="footer_links icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.9232 3.7158C17.7228 1.5143 14.7968 0.300971 11.6795 0.299805C5.25583 0.299805 0.0280001 5.5253 0.0256667 11.949C0.0245001 14.0023 0.561167 16.0066 1.58083 17.773L0 23.6331L6.10517 22.19C7.80733 23.1186 9.723 23.6075 11.6737 23.6086H11.6783C18.1008 23.6086 23.3287 18.382 23.3322 11.9595C23.3345 8.84564 22.1235 5.91847 19.9232 3.7158ZM17.381 16.1128C17.1383 16.793 15.9495 17.4486 15.4152 17.4965C14.8808 17.5455 14.3803 17.738 11.921 16.7685C8.96117 15.6018 7.09217 12.5673 6.9475 12.3736C6.80167 12.1788 5.75867 10.7951 5.75867 9.36247C5.75867 7.9298 6.51117 7.22514 6.77833 6.93464C7.0455 6.64297 7.3605 6.57064 7.55533 6.57064C7.749 6.57064 7.94383 6.57064 8.113 6.57764C8.32067 6.5858 8.5505 6.5963 8.76867 7.08047C9.02767 7.65681 9.5935 9.09647 9.66583 9.2423C9.73816 9.38814 9.78716 9.55847 9.69033 9.75214C9.5935 9.94581 9.5445 10.0671 9.39983 10.2375C9.254 10.4078 9.09416 10.6166 8.9635 10.7473C8.81767 10.892 8.666 11.0506 8.83517 11.3411C9.0055 11.6328 9.58883 12.586 10.4545 13.3571C11.5675 14.3488 12.5043 14.6556 12.796 14.8026C13.0877 14.9485 13.2568 14.924 13.4272 14.7291C13.5975 14.5355 14.1552 13.8798 14.3488 13.5881C14.5425 13.2965 14.7373 13.3455 15.0045 13.4423C15.2717 13.5391 16.7032 14.2438 16.9937 14.3896C17.2853 14.5355 17.479 14.6078 17.5513 14.7291C17.6237 14.8493 17.6237 15.4326 17.381 16.1128Z" fill="black"/>
+                    </svg>
+                    <a href="#">WhatsApp</a>
+                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.2944 0.596741C22.8894 0.253301 22.2533 0.204161 21.5956 0.468221H21.5945C20.9028 0.745781 2.01356 8.84794 1.2446 9.17896C1.10474 9.22756 -0.116743 9.68332 0.00907679 10.6985C0.121397 11.6138 1.10312 11.9929 1.223 12.0366L6.02522 13.6809C6.34382 14.7415 7.51832 18.6543 7.77806 19.4903C7.94006 20.0114 8.20412 20.6961 8.6669 20.837C9.07298 20.9936 9.4769 20.8505 9.73826 20.6453L12.6742 17.9221L17.4138 21.6184L17.5267 21.6859C17.8485 21.8285 18.1569 21.8997 18.4512 21.8997C18.6785 21.8997 18.8967 21.8571 19.1051 21.7718C19.8152 21.4802 20.0992 20.8035 20.1289 20.7269L23.6692 2.32528C23.8852 1.34248 23.5849 0.842441 23.2944 0.596741ZM10.2604 14.3387L8.64044 18.6587L7.02044 13.2587L19.4404 4.07866L10.2604 14.3387Z" fill="black"/>
+                    </svg>
+                    <a href="#">Telegram</a>
+                </p>
+            </div>
+            <div class="footer_nav_1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer_nav_1">
+                <ul>
+                    <li><a href="#">Processes</a></li>
+                    <li><a href="#">About company</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer_link_arrow">
+                <a href="#">
+                    <svg width="42" height="60" viewBox="0 0 42 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_283)">
+                            <path d="M21 60.3999L21 4.08562M21 4.08562L37 20.7713M21 4.08562L5 20.7713" stroke="black"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_283">
+                                <rect width="42" height="60" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <hr>
+            <p>© Devcloud Solutions, Inc. 2021. We love our users!</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

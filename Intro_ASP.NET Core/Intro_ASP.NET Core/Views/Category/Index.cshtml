@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Category List";
+    ViewData["Title"] = "Category";
+    Layout = "_Layout";
+}
+
+<!Doctype html>
+<html>
+<head></head>
+<body>
+<header id="main_header">
+    <div class="header_menu_wrapp">
+        <div class="container">
+            <div class="header_menu" id="menu">
+                <div class="header_logo">
+                    <img src="https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/" alt="логотип">
+                    <p class="header_name">Devcloud Solutions</p>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#">Services
+                                <svg class="menu_icon" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_124)">
+                                        <path d="M0 2.55555L6 8.55555L12 2.55555" stroke="white"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_124">
+                                            <rect width="12" height="8.88944" fill="white" transform="translate(0 0.555553)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">SEO</a></li>
+                            </ul>
+                        </li>
+                        <li><a asp-controller="Home" asp-action="Index">How we work</a></li>
+                        <li><a asp-controller="Category" asp-action="Index">Category</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="header_intro">
+        <h1></h1>
+        <a href="#guarantee">
+            <svg class="header_arrow" width="51" height="175" viewBox="0 0 51 80" fill="none">
+            </svg>
+        </a>
+    </div>
+</header>
+<main>
+    <div>
+     
+    </div>
+</main>
+</body>
+</html>
+
