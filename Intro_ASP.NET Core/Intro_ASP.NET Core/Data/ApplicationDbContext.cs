@@ -10,9 +10,8 @@ namespace Intro_ASP.NET_Core.Data
             
         }
         
-        public DbSet<ContactRequest> ContactRequests { get; set; } 
+        public DbSet<ContactFormViewModel> ContactFormViewModels { get; set; } 
 
         public DbSet<Category> Categories { get; set; }
-
     }
 }

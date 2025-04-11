@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "86xhaw0p/Qqub6b79aASK0h0JFh8aF+OM3h4wRQiJqI=",
+  "Hash": "o1p2P2cVNKlARLqtIVLr1owywLACHKaUhFh2rlwBGFM=",
   "Source": "Intro_ASP.NET Core",
   "BasePath": "_content/Intro_ASP.NET Core",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Intro_ASP.NET Core\\wwwroot",
       "Source": "Intro_ASP.NET Core",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\css\\styles.css",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\footer.png",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\footer.png",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "images/footer.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\footer.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Header.jpg",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Header.jpg",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "images/Header.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Header.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\logo.png",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main1.jpg",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main1.jpg",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "images/Main1.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Main1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main2.jpg",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main2.jpg",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "images/Main2.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Main2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main3.png",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main3.png",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "images/Main3.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Main3.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\js\\main.js",
+      "Identity": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\js\\main.js",
       "SourceId": "Intro_ASP.NET Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
+      "ContentRoot": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\",
       "BasePath": "_content/Intro_ASP.NET Core",
       "RelativePath": "js/main.js",
       "AssetKind": "All",

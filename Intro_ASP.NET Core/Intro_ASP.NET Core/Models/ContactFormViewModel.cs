@@ -1,16 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Intro_ASP.NET_Core.ViewModel
+namespace Intro_ASP.NET_Core.Models
 {
     public class ContactFormViewModel
     {
+        public int Id { get; set; }
+        
         [Required(ErrorMessage = "Пожалуйста, введите ваше имя")]
         [Display(Name = "Имя")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Пожалуйста, введите ваш E-mail")]
         [EmailAddress(ErrorMessage = "Некорректный формат E-mail")]
-        [Display(Name = "E-mail")]
+        [StringLength(100)]
         public string Email { get; set; }
 
         [Phone(ErrorMessage = "Некорректный формат телефона")]
@@ -21,10 +23,8 @@ namespace Intro_ASP.NET_Core.ViewModel
         [Display(Name = "Сообщение")]
         public string Message { get; set; }
 
-        [Display(Name = "Прикрепить файл")]
-        // Можно добавить валидацию на размер или тип файла, если нужно
-        // [AllowedExtensions(new string[] { ".jpg", ".png", ".pdf" })]
-        // [MaxFileSize(5 * 1024 * 1024)] // Например, 5 MB
-        public IFormFile? Attachment { get; set; } // Свойство для файла (nullable, если файл не обязателен)
+        [Required(ErrorMessage = "")]
+        [Display(Name = "Дата отправки")]
+        public DateTime SubmittedAt { get; set; }
     }
 }

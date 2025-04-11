@@ -1,35 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\css\\styles.css",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Header.jpg",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Header.jpg",
       "PackagePath": "staticwebassets\\images\\Header.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main1.jpg",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main1.jpg",
       "PackagePath": "staticwebassets\\images\\Main1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main2.jpg",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main2.jpg",
       "PackagePath": "staticwebassets\\images\\Main2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main3.png",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\Main3.png",
       "PackagePath": "staticwebassets\\images\\Main3.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\footer.png",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\footer.png",
       "PackagePath": "staticwebassets\\images\\footer.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\logo.png",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\RiderProjects\\.NET Projects\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\js\\main.js",
+      "Id": "C:\\HauntedMaster_Repositories\\MapTree\\ASP-.NET-Core-Project\\Intro_ASP.NET Core\\Intro_ASP.NET Core\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
